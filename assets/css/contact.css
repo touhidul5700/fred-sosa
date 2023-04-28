@@ -1,0 +1,81 @@
+.webs-work-form-container h2{
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 100px;
+    color: rgb(149, 151, 153);
+}
+.webs-work-form-idea-container span{
+    padding: 15px;
+    border: 1px solid rgb(173, 171, 171);
+    border-radius: 30px;
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    line-height: 70px;
+    
+}
+.webs-work-form-idea-container span:hover{
+    background: #000000;
+    color: rgb(255, 255, 255);
+    transition: 1s;
+}
+.webs-work-form-idea-container form{
+    display: flex;
+    flex-direction: column;
+}
+.webs-work-form-idea-container form input{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 26px;
+    margin: 0;
+    border: 0;
+    border-bottom: 2px solid rgba(194, 194, 204, 0.903);
+}
+.webs-work-form-idea-container form input:hover{
+    border-bottom: 2px solid rgba(0, 0, 0, 0.903);
+    transition: 1s;
+}
+input::placeholder{
+    color: rgba(194, 194, 204, 0.903);
+    font-weight: 600;
+}
+.pricing h2{
+    color: rgba(194, 194, 204, 0.903);
+    font-weight: 600;  
+}
+/* ///////////selector color/////////// */
+.selector {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+  }
+  .selector.clicked {
+    background-color: rgb(0, 0, 0);
+    color: white;
+  }
+form button{
+    padding: 20px;
+    width: 130px;
+    color: #000000;
+    text-align: left;
+    display: inline-block;
+    border: 0;
+    background-color: #ffffff;
+    border-bottom: 2px solid #000;
+}
+form button:hover{
+    background-color: #000000;
+    color: white;
+    border-radius: 30px;
+    transition: 1s;
+}
+.protections{
+    margin-top: 100px;
+    color: #c2c2cce6;
+    line-height: 20px;
+}
+.protections a{
+    color: #696969e6;
+}
+button, span{
+    cursor: pointer;
+}
